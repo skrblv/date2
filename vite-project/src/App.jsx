@@ -1,13 +1,13 @@
 import React from 'react'
 import Hero from './components/Hero'
-import PLans from './components/PLans'
+import Diagram from './components/Plans'
 
 function App() {
 
   return (
     <div className='overflow-x-hidden'>
       <Hero />
-      <PLans />
+      <Diagram />
     </div>
   )
 }
