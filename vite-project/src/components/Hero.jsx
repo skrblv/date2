@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import HeroImage from "../assets/Hero.jpg";
+
 import {
   calculateTimeLeft,
   getStoredDate,
@@ -26,7 +28,7 @@ function Hero() {
   return (
     <section
       className="flex flex-col items-center justify-center h-screen bg-cover bg-center text-white text-center overflow-x-hidden"
-      style={{ backgroundImage: "url('/Hero.jpg')" }}
+      style={{ backgroundImage: `url(${HeroImage})` }}
     >
       <div className="backdrop-blur-sm  w-[90%] sm:w-[60%] md:w-[40%] lg:w-[30%] h-auto p-6 flex flex-col justify-center items-center rounded-lg ">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">
